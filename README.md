@@ -1,7 +1,7 @@
 # Project 1: VR LIDAR Data
 ## stage 1 (done): parse LIDAR data (.las/.laz) to 3D object file (.ply)
 1. Load LIDAR point clouds to Python with "laspy" library
-2. construct array using numpy to accommodate X,Y,Z information & value normalization using scale function in sklearn.preprocessing library
+2. construct array using numpy to accommodate X, Y, Z information & value normalization using scale function in sklearn.preprocessing library
 3. 3D visualization using pptk library
 4. compile objects for vertices & faces to output .ply file
 5. verify parsed .ply file: load .ply file in blender
